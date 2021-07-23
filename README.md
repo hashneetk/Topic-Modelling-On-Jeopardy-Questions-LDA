@@ -13,9 +13,9 @@ Monetary  value  acts  as  a  proxy  for  the  difficulty  of  the  questions  a
 The dataset used for this project is available on Reddit https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/. The dataset has 216,930 questions asked on the show between the year 1984 - 2012 and during different rounds levels through the show. For this project we will only be using the questions asked during the Jeopardy!, Double Jeopardy!, and Final Jeopardy! rounds.
 
 ## Steps for Modeling
-1. Clean text
-2. TF-IDF to vectorize data
-3. LDA model with 5 topics chosen
-4. Find top 10 words per each topic
-5. For each question, find the highest probability that a question belongs to a topic; assign that question to topic
-6. Visualize words in topic and distribution of questions in each topic
+1. Clean the text of the questions
+2. Use TFIDF vectorizer to vectorize the data
+3. Use LDA model to get the top 5 topics with highest probability.
+4. Find top 10 words for each topic
+5. For each question, find the probability that a question belongs to a topic; assign the question to the topic that has highest probabilty 
+6. Visualize the words in each topic and the distribution of questions in each topic
