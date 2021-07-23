@@ -10,7 +10,7 @@ Jeopardy!has been around for a long time (from 1984-2020) and one goal of this a
 Monetary  value  acts  as  a  proxy  for  the  difficulty  of  the  questions  asked  in Jeopardy!.Through our analysis we will explore what aspects of the  questions make them more difficult. And,tying this to the above, how have these trends changed over time?
 
 ## Dataset
-The dataset used for this project is available on Reddit - [Jeopardy! Questions ] (https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/). The dataset has 216,930 questions asked on the show between the year 1984 - 2012 and during different rounds levels through the show. For this project we will only be using the questions asked during the Jeopardy!, Double Jeopardy!, and Final Jeopardy! rounds.
+The dataset used for this project is available on Reddit- [Jeopardy! Questions Dataset] (https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/) . The dataset has 216,930 questions asked on the show between the year 1984 - 2012 and during different rounds levels through the show. For this project we will only be using the questions asked during the Jeopardy!, Double Jeopardy!, and Final Jeopardy! rounds.
 
 ## Steps for Modeling
 1. Clean the text of the questions
