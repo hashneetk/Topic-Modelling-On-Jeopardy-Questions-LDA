@@ -13,7 +13,7 @@ Monetary  value  acts  as  a  proxy  for  the  difficulty  of  the  questions  a
 The dataset used for this project is available on Reddit https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/. The dataset has 216,930 questions asked on the show between the year 1984 - 2012 and during different rounds levels through the show. For this project we will only be using the questions asked during the Jeopardy!, Double Jeopardy!, and Final Jeopardy! rounds.
 
 ## Steps for Modeling
-1.Clean text
+1. Clean text
 2. TF-IDF to vectorize data
 3. LDA model with 5 topics chosen
 4. Find top 10 words per each topic
